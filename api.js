@@ -65,10 +65,16 @@ function mealRecipeModal(meal){
         
         <div class = "recipe-instruct">
             <h3>Instructions:</h3>
-            <p>${meals.strIngredient1}</p>
-            <p>${meals.strIngredient2}</p>
-            <p>${meals.strIngredient3}</p>
-            <p>${meals.strIngredient4}</p>
+            <p>${meals.strMeasure1} ${meals.strIngredient1}</p>
+            <p>${meals.strMeasure2} ${meals.strIngredient2}</p>
+            <p>${meals.strMeasure3} ${meals.strIngredient3}</p>
+            <p>${meals.strMeasure4} ${meals.strIngredient4}</p>
+            <p>${meals.strMeasure5} ${meals.strIngredient5}</p>
+            <p>${meals.strMeasure6} ${meals.strIngredient6}</p>
+            <p>${meals.strMeasure7} ${meals.strIngredient7}</p>
+            <p>${meals.strMeasure8} ${meals.strIngredient8}</p>
+            <p>${meals.strMeasure9} ${meals.strIngredient9}</p>
+            <p>${meals.strMeasure10} ${meals.strIngredient10}</p>
         </div>
     `;
     mealDetailsContent.innerHTML = html;
